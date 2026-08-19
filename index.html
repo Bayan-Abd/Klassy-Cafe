@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klassy Cafe</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- استيراد الخطوط من جوجل -->
+    <link href="https://googleapis.com" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <span class="logo-icon">
+          <img src="./img-spoon.jpg" alt="logo" />
+        </span>
+        <div class="logo-text">
+          <span>Klassy</span>
+          <span class="logo-data">SINCE 1990</span>
+        </div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Chefs</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- قسم البطل / الواجهة الرئيسية -->
+    <section class="hero-section">
+      <div class="hero-left">
+        <h1>KlassyCafe</h1>
+        <p>THE BEST EXPERIENCE</p>
+        <a href="#reservation" class="btn-main">Make A Reservation</a>
+      </div>
+      <div class="hero-right">
+        <img src="./Cafe.jpg" alt="cafe" />
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-content">
+        <span class="sub-title">ABOUT US</span>
+        <h2>We Leave A Delicious<br />Memory For You</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel
+          volutpatum consequat, ubi nihil iure quisquam eaque.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, vel
+          ipsa asperiores explicabo accusantium illum adipisci, id rem!
+        </p>
+        <div class="about-thumbs">
+          <div class="thumb">
+            <img src="./dish1.jpg" alt="food" width="150px height=200px" />
+          </div>
+          <div class="thumb">
+            <img src="./dish2.jpg" alt="food" />
+          </div>
+          <div class="thumb">
+            <img src="./dish3.jpg" alt="food" />
+          </div>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="./cafeee.jpg" alt="Our Cafe " />
+      </div>
+    </section>
+
+    <!-- قسم الطهاة / Our Chefs -->
+    <section class="chefs-section">
+      <span class="sub-title text-center">OUR CHEFS</span>
+      <h2 class="text-center">We offer the best<br />ingredients for you</h2>
+
+      <div class="chefs-grid">
+        <!-- الطاهي الأول -->
+        <div class="chef-card">
+          <div class="chef-img">
+            <img src="./pastry chef.jpg" alt="Randy Walker" />
+          </div>
+          <h3>Randy Walker</h3>
+          <p>Pastry Chef</p>
+        </div>
+        <!-- الطاهي الثاني -->
+        <div class="chef-card">
+          <div class="chef-img">
+            <img src="./cookie chef.jpg" alt="David Martin" />
+          </div>
+          <h3>David Martin</h3>
+          <p>Cookie Chef</p>
+        </div>
+        <!-- الطاهي الثالث -->
+        <div class="chef-card">
+          <div class="chef-img">
+            <img src="./pancake chef.jpg" alt="Peter Perkson" />
+          </div>
+          <h3>Peter Perkson</h3>
+          <p>Pancake Chef</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الاتصال وحجز الطاولات -->
+    <section id="reservation" class="contact-section">
+      <div class="contact-container">
+        <div class="contact-info">
+          <span class="sub-title text-white">CONTACT US</span>
+          <h2>
+            Here You Can Make A Reservation<br />Or Just walkin to our cafe
+          </h2>
+          <p>
+            Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a
+            eleifend risus, nomei sollicitudin urna diam, sed commodo purus
+            porta ut.
+          </p>
+
+          <div class="info-boxes">
+            <div class="info-box">
+              <h4>Phone Numbers</h4>
+              <p>080-090-0990</p>
+              <p>080-090-0880</p>
+            </div>
+            <div class="info-box">
+              <h4>Emails</h4>
+              <p>hello@company.com</p>
+              <p>info@company.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reservation-form-container">
+          <h3>Table Reservation</h3>
+          <form class="reservation-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email Address" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Phone Number" required />
+              <input type="number" placeholder="Number Of Guests" required />
+            </div>
+            <textarea placeholder="Message" rows="4"></textarea>
+            <button type="submit" class="btn-submit">Make A Reservation</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- التذييل / Footer -->
+    <footer>
+      <p>© Copyright Klassy Cafe Co. Design by: KayaAlhasan</p>
+    </footer>
+  </body>
+</html>
